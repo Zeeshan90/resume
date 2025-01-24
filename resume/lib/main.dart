@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:resume/app_routes.dart';
-import 'package:resume/resume.dart';
+import 'package:resume/resume/resume.dart';
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 
 void main() {
@@ -19,7 +19,7 @@ class MyResumeApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'M Zeeshan Ashraf - Resume',
+      title: 'Introduction',
       theme: ThemeData(primarySwatch: Colors.teal),
       home: ResumePage(),
       getPages: AppRoutes.pages,
